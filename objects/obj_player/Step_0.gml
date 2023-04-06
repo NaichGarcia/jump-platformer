@@ -90,10 +90,12 @@ switch(state) {
 				// Bounce off the floor applying a bounce decay to the vertical speed
 				if(abs(vsp) > bounce_stop_threshold) {
 					vsp *= -bounce_decay;
+					bounce_decay -= bounce_decay_sum;
 				} else {
 					hsp = 0;
-					state = states.idle;
 					vsp = 0;
+					bounce_decay = original_bounce_decay;
+					state = states.idle;
 				}
 			} else {
 				vsp = 0;

@@ -19,10 +19,15 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
-    {"name":"BACKUP","order":3,"path":"scripts/BACKUP/BACKUP.yy",},
+    {"name":"obj_knock_wall","order":4,"path":"objects/obj_knock_wall/obj_knock_wall.yy",},
+    {"name":"handle_crashed_state","order":2,"path":"scripts/handle_crashed_state/handle_crashed_state.yy",},
     {"name":"obj_game_manager","order":2,"path":"objects/obj_game_manager/obj_game_manager.yy",},
     {"name":"spr_player_debug","order":1,"path":"sprites/spr_player_debug/spr_player_debug.yy",},
     {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"macros","order":1,"path":"scripts/macros/macros.yy",},
+    {"name":"spr_knock_wall","order":2,"path":"sprites/spr_knock_wall/spr_knock_wall.yy",},
+    {"name":"collisions","order":3,"path":"scripts/collisions/collisions.yy",},
+    {"name":"utils","order":3,"path":"scripts/utils/utils.yy",},
+    {"name":"handle_jumping_state","order":1,"path":"scripts/handle_jumping_state/handle_jumping_state.yy",},
   ],
 }

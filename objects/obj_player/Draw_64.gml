@@ -1,7 +1,7 @@
 
 draw_set_font(f_debug);
 
-// DELETE ALL OF THIS
+// DEBUG
 debug_hsp = (xx - x) / x_force_divider;
 debug_vsp = (yy - y) / y_force_divider;
 

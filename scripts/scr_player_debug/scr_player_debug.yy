@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "handle_idle_state",
+  "name": "scr_player_debug",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Player States",
-    "path": "folders/Scripts/Player States.yy",
+    "name": "Debug",
+    "path": "folders/Scripts/Debug.yy",
   },
 }

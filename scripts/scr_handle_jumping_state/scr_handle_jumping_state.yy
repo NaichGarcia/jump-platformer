@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "collisions",
+  "name": "scr_handle_jumping_state",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

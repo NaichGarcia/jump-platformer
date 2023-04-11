@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "handle_crashed_state",
+  "name": "scr_screen_shake",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Player States",
-    "path": "folders/Scripts/Player States.yy",
+    "name": "Juice",
+    "path": "folders/Scripts/Juice.yy",
   },
 }

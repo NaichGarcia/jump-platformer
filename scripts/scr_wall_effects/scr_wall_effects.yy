@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "handle_jumping_state",
+  "name": "scr_wall_effects",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Player States",
-    "path": "folders/Scripts/Player States.yy",
+    "name": "Collisions",
+    "path": "folders/Scripts/Collisions.yy",
   },
 }

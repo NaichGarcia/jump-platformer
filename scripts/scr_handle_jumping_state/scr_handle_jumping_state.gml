@@ -7,13 +7,14 @@ function handle_jumping_state(){
 	collision_v = check_vertical_collision(x, y + vsp, obj_solid);
 	
 	// Jump post horizontal collision behaviour
-	if(collision_h) {
+	if(collision_h != noone) {
+		screen_shake(3, 10);
 		hsp = -hsp;
 		state = states.crashed;	
 	}
 	
 	// Jump post vertical collision behaviour
-	if(collision_v) {
+	if(collision_v != noone) {
 		if(sign(vsp) > 0) {
 			hsp = 0;
 			state = states.idle;

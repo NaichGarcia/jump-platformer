@@ -2,5 +2,7 @@
 draw_self();
 
 // DEBUG
-if(state = states.idle) then draw_line(x, y, xx, yy);
+if(obj_game_manager.debugging) {
+	player_draw_debug();
+}
 

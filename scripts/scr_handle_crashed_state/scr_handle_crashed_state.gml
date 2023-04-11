@@ -7,13 +7,15 @@ function handle_crashed_state(){
 	collision_v = check_vertical_collision(x, y + vsp, obj_solid);
 
 	// Crash post horizontal collision behaviour
-	if(collision_h) {
+	if(collision_h != noone) {
+		screen_shake(3, 10);
 		hsp = -hsp;
 	}
 
 	// Crash post vertical collision behaviour
-	if(collision_v) {
+	if(collision_v != noone) {
 		if(sign(vsp) > 0) {
+			screen_shake(abs(vsp) / 5, 10);
 			bounce_off_floor();
 		} else {
 			vsp = 0;

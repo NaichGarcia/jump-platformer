@@ -8,9 +8,8 @@ function handle_jumping_state(){
 	
 	// Jump post horizontal collision behaviour
 	if(collision_h != noone) {
-		screen_shake(3, 10);
-		hsp = -hsp;
-		state = states.crashed;	
+		var collision_function = collision_h.collision_effect;
+		collision_function();
 	}
 	
 	// Jump post vertical collision behaviour

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "tileset_test",
+  "name": "tileset_world01",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "spr_tileset_world0",
-    "path": "sprites/spr_tileset_world0/spr_tileset_world0.yy",
+    "name": "spr_tileset_world01",
+    "path": "sprites/spr_tileset_world01/spr_tileset_world01.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {
